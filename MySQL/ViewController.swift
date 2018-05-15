@@ -87,6 +87,7 @@ class ViewController: UIViewController {
                 """
                 print("\(text)")
             }catch{print("[ERROR] decode error1")}
+        }
             /*
             do{
                 try print("\(JSONSerialization.jsonObject(with: data, options: []))\n...\(response)")
